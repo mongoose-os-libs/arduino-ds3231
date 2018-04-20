@@ -47,7 +47,7 @@ DS3231::DS3231(uint8_t I2C_Address)
 {
 	I2C_ADDRESS = I2C_Address;
 	Wire.begin();
-	writeByte(0x0, 0x0);
+	//writeByte(0x0, 0x0);
 }
 
 // TODO: Fix up constructors
